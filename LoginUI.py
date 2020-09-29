@@ -23,7 +23,7 @@ f.insert(0, 'Password')
 def signclick():     # COMMAND FOR SIGNUP BUTTON
     createuser =e.get()
     if createuser in users:
-        l1 = Label(root, text="Username taken")
+        l1 = Label(root, text="Username taken", padx=50)
         l1.grid(row=0, column=0, columnspan=2)
     else:
         createpass = f.get()
